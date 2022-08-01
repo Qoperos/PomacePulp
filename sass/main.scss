@@ -1,0 +1,20 @@
+//custom variables
+$primary: #FF9A07;
+$secondary : #63C916;
+
+//import function and variable
+@import '../node_modules/bootstrap/scss/_functions.scss';
+@import '../node_modules/bootstrap/scss/_variables.scss';
+
+//custom-theme-colors
+$custom-theme-colors: (
+    "myDark": #f2ebfa,
+    "myLight": rgba(7, 6, 6, 0.973),
+    "MyGg": rgba(255, 255, 255, 0.884)
+);
+
+//merge bootstrap's theme-color with the new one
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
