@@ -1,9 +1,7 @@
 //custom variables
-$primary: #63C916;
-$secondary : #FF9A07;
-.nav-item{
-    position: relative;
-}
+$primary: #FF9A07;
+$secondary : #63C916;
+
 //import function and variable
 @import '../node_modules/bootstrap/scss/_functions.scss';
 @import '../node_modules/bootstrap/scss/_variables.scss';
@@ -12,7 +10,10 @@ $secondary : #FF9A07;
 $custom-theme-colors: (
     "myDark": #f2ebfa,
     "lightGreen": rgba(64, 255, 143, 0.89),
-    "my-bg": #EFF9E7
+    "my-bg": #EFF9E7,
+    "veryLightBlue": #F0F9FA,
+    "white": white,
+    "tx-col": rgb(110, 103, 103),
 );
 
 //merge bootstrap's theme-color with the new one
