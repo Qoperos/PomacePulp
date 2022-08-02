@@ -4,15 +4,14 @@ $secondary : #63C916;
 
 //import function and variable
 @import '../node_modules/bootstrap/scss/_functions.scss';
-@import './node_modules/bootstrap/scss/_variables.scss';
+@import '../node_modules/bootstrap/scss/_variables.scss';
 
 //custom-theme-colors
 $custom-theme-colors: (
     "myDark": #f2ebfa,
-
     "lightGreen": rgba(64, 255, 143, 0.89),
     "MyGg": rgba(255, 255, 255, 0.884),
-    "hiG" : #0fe
+    "hiG" : #0fe,
     "MyGg": rgba(255, 255, 255, 0.884)
 );
 
