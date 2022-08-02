@@ -1,9 +1,15 @@
 //custom variables
+<<<<<<< HEAD
 $primary: #63C916;
 $secondary : #FF9A07;
 .nav-item{
     position: relative;
 }
+=======
+$primary: #FF9A07;
+$secondary : #63C916;
+
+>>>>>>> d80ebf0 (navigation bar created)
 //import function and variable
 @import '../node_modules/bootstrap/scss/_functions.scss';
 @import './node_modules/bootstrap/scss/_variables.scss';
@@ -11,9 +17,17 @@ $secondary : #FF9A07;
 //custom-theme-colors
 $custom-theme-colors: (
     "myDark": #f2ebfa,
+<<<<<<< HEAD
     "lightGreen": rgba(64, 255, 143, 0.89),
+<<<<<<< HEAD
     "MyGg": rgba(255, 255, 255, 0.884),
     "hiG" : #0fe
+=======
+=======
+    "myLight": rgba(7, 6, 6, 0.973),
+>>>>>>> d80ebf0 (navigation bar created)
+    "MyGg": rgba(255, 255, 255, 0.884)
+>>>>>>> Navigation-feature
 );
 
 //merge bootstrap's theme-color with the new one
