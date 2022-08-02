@@ -1,7 +1,3 @@
 node_modules
 package-lock.json
-<<<<<<< HEAD
 package.json
-=======
-package.json
->>>>>>> d80ebf0 (navigation bar created)
