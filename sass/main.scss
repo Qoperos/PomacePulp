@@ -8,12 +8,14 @@ $secondary : #63C916;
 
 //custom-theme-colors
 $custom-theme-colors: (
-    "myDark": #f2ebfa,
+    "myDark": #000000,
     "lightGreen": rgba(64, 255, 143, 0.89),
-    "my-bg": #EFF9E7,
+    "my-bg": #FFEEF4,
     "veryLightBlue": #F0F9FA,
     "white": white,
-    "tx-col": rgb(110, 103, 103),
+    "tx-col": rgb(105, 104, 104),
+    "dark-blue": #166e81f3,
+    "blue-dark": rgb(0, 33, 71)
 );
 
 //merge bootstrap's theme-color with the new one
